@@ -1,12 +1,28 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Third Blog Post
-author: Astro Learner
-description: "I had some challenges, but asking in the community really helped!"
+title: 'Subiendome el ego (Soy platinoob)'
+pubDate: 2026-09-21
+description: 'Gané una partida, eso es todo'
+author: 'Mathew Luna'
 image:
-    url: "https://docs.astro.build/assets/rays.webp"
-    alt: "The Astro logo on a dark background with rainbow rays."
-pubDate: 2022-07-15
-tags: ["astro", "learning in public", "setbacks", "community"]
+    url: '/primer-puesto.png'
+    alt: 'Resumen de la partida: primer puesto, clasificatoria, 41:01, nivel 8.'
+tags: ["tft", "clasificatoria", "top 4", "victoria"]
 ---
-It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!
+# ¡Primer puesto! Todo el tablero en 3 estrellas
+
+El mismo dia que hubo humillada nuclear tambien hubo **victoria**. La partida duró **Todo salio perfecto padrino**.
+
+## Cómo me fue
+
+- Llegué a **nivel 8** con 8 unidades en el tablero.
+- **Las 8 unidades llegaron a 3 estrellas**, algo que casi nunca me pasa.
+- Tuve **6 sinergias activas**.
+
+## Estado Emocional en una foto
+
+![Descripción de la imagen](/goat.gif)
+
+## Qué aprendí
+
+Que cuando el pinche tft esta de mi lado si se gana, si le se pero rng bad luck.
