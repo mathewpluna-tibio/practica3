@@ -1,19 +1,19 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const pageTitle = "About Me";
+const pageTitle = "Sobre mí";
 
 const identity = {
   firstName: "Mathew",
   country: "Mexico",
-  occupation: "Student",
-  hobbies: ["videogames", "music", "series"],
+  occupation: "Estudiante",
+  hobbies: [" Jugar videojuegos", "escuchar música", "ver series"],
 };
 
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 
 const happy = true;
-const finished = false;
+const finished = true;
 const goal = 3;
 
 const skillColor = "crimson";
@@ -22,30 +22,30 @@ const textCase = "uppercase";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <h2>... and my new Astro site!</h2>
+    <h2>Mi sitio astro para cumplir con la práctica yei :|</h2>
 
-    <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
+    <p>Este blog solo existe por propositos academicos y registrar 4 partidas mías de tft</p>
 
-    <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
+    <p>Cabe aclarar que soy un jugador bastante mediocre en TFT, que carece de creatividad e improvisación, mi mayor característica es tener suerte.</p>
  
-    <p>Here are a few facts about me:</p>
+    <p>Algunos factosss sobre mi para presentarme vaya:</p>
     <ul>
-        <li>My name is {identity.firstName}.</li>
-        <li>I live in {identity.country} and I work as a {identity.occupation}.</li>
+        <li>Mi nombre es {identity.firstName}.</li>
+        <li>Yo vivo en {identity.country} y soy {identity.occupation} del CETI.</li>
         {identity.hobbies.length >= 2 &&
-            <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
+            <li>Dos de mis hobbies son: {identity.hobbies[0]} y {identity.hobbies[1]}</li>
         }
     </ul>
-    <p>My skills are:</p>
+    <p>Mis habilidades son:</p>
     <ul>
         {skills.map((skill) => <li class="skill">{skill}</li>)}
     </ul>
 
-    {happy && <p>I am happy to be learning Astro!</p>}
+    {happy && <p>No fui feliz aprendiendo astro a contrareloj</p>}
 
-    {finished && <p>I finished this tutorial!</p>}
+    {finished && <p>Termine el tutorial, aplaudanme</p>}
 
-    {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
+    {goal === 3 ? <p>Lo termine en un día 😎 </p> : <p>Mi meta era 5 horas</p>}
 
     <style is:global define:vars={{skillColor, fontWeight, textCase}}>
         h1 {
