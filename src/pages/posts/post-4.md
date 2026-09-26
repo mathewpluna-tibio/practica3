@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Quinto puesto: mucho poder pero poco nivel'
+title: 'Quinto puesto: Depresion'
 pubDate: 2026-09-23
 description: 'Tenía casi todo en 3 estrellas, pero en nivel 6 no me alcanzó para el top 4.'
 author: 'Mathew Luna'

@@ -11,7 +11,7 @@ tags: ["tft", "clasificatoria", "top 4", "victoria"]
 ---
 # ¡Primer puesto! Todo el tablero en 3 estrellas
 
-El mismo dia que hubo humillada nuclear tambien hubo **victoria**. La partida duró **Todo salio perfecto padrino**.
+El mismo dia que hubo humillada nuclear tambien hubo **victoria**. **Todo salio perfecto padrino**.
 
 ## Cómo me fue
 
